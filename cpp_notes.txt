@@ -1,0 +1,14 @@
+#include <iostream> - header file, which helps in performing input & output operations.
+
+using namespace std; - makes code simpler(includes all identifiers into global space). std is also an library which contains obects etc...(e.g cout)
+
+cout - to print output(like texts etc...)
+<< - insertion operator
+endl - end line( u can use "\n" tol go to next line).
+
+character is stored in '' while string is stored in "".
+
+
+
+
+
