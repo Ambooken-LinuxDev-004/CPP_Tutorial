@@ -4,12 +4,23 @@ using namespace std;
 
 int main()
 {
-    string name = "Joe Ambooken";
-    int age = 24;
-    float weight = 55.7;
-    char alphabet = 'A';
-    bool married = false;
-    cout << "My name is " << name << ". I am " << age << " years old." << " I weigh " << weight << " kgs." << " My favorite alphabet is " << alphabet << "." << endl;
-    cout << "Married Status: " << married << endl;
+    int n;
+
+    cout << "Enter a Number: " << endl;
+    cin >> n;
+
+    if(n > 0)
+    {
+        cout << n << " is a positive number..." << endl;
+    }
+    else if(n == 0)
+    {
+        cout << n << " is ZERO..." << endl;
+    }
+    else
+    {
+        cout << n << " is a negative number..." << endl;
+    }
+
     return 0;
 }

@@ -8,6 +8,13 @@ endl - end line( u can use "\n" tol go to next line).
 
 character is stored in '' while string is stored in "".
 
+NOTE:- For Comparison Operators(<,>,==), the ouput is always 1(true) or 0(false).
+
+Logical Operators(&&(and), ||(or), !(not)). Returns 1(true) or 0(false).
+
+>> - extraction operator
+cin >> variable_name; - To add input value into a declared variable.
+
 
 
 
