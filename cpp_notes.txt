@@ -15,6 +15,15 @@ Logical Operators(&&(and), ||(or), !(not)). Returns 1(true) or 0(false).
 >> - extraction operator
 cin >> variable_name; - To add input value into a declared variable.
 
+#### COMPILE AND RUN A SIMPLE C++ FILE:- ####
+
+** g++ <filename>.cpp -o <outputfilename> - To compile the file.
+** ./<outputfilename> - Then to run the file.
+
+** g++ -I /usr/include/eigen3 <filename>.cpp -o <outputfilename> - 'I' flag says to g++ compiler where to look for additional includes(header files).
+
+### LIBRARIES USED IN ROBOTICS ###
+
 
 
 
